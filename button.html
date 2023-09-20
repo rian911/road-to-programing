@@ -8,6 +8,7 @@
     border-radius: 5%;
     cursor: pointer;
     margin-right: 10px;
+    transition: opacity 0.3s;
   }
   .sub:hover {
     opacity: 0.85;
@@ -25,6 +26,14 @@
     width: 120px;
     height: 42px;
     cursor: pointer;
+    transition: background-color 0.4s, color 0.4s, opacity 0.5s;
+  }
+  .join:hover {
+    background-color: rgb(135, 135, 255);
+    color: rgba(255, 255, 255, 0.907);
+  }
+  .join:active {
+    opacity: 0.65;
   }
   .tweet {
     background-color: rgb(41, 128, 199);
@@ -34,6 +43,10 @@
     width: 80px;
     height: 35px;
     cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  .tweet:hover {
+    box-shadow: 0px 10px 20px rgba(19, 18, 18, 0.5);
   }
 </style>
 <button class="sub">SUBSCRIBE</button>
