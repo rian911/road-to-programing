@@ -1,0 +1,14 @@
+.button-chart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 7px 30px 7px 30px;
+  font-weight: bold;
+  transition: 0.4s;
+  /* transisi harus di solid css bukan di hover atau di active */
+}
+.button-chart:hover {
+  background-color: rgb(221, 189, 30);
+}

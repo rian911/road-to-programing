@@ -1,0 +1,46 @@
+.amazon-link {
+  color: rgb(0, 113, 133);
+}
+.amazon-link:hover {
+  color: blueviolet;
+}
+.nike {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.dollar {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+}
+.cart {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  width: 120px;
+  font-weight: bold;
+}
+.cart:hover {
+  background-color: rgb(207, 173, 4);
+}
+.cart:active {
+  opacity: 0.5;
+}
+.buy-now {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  width: 120px;
+  font-weight: bold;
+}
+.buy-now:hover {
+  background-color: rgb(205, 127, 9);
+}
+.buy-now:active {
+  opacity: 0.6;
+}

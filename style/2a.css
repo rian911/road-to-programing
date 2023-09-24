@@ -1,0 +1,12 @@
+.button-request {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button-request:hover {
+  opacity: 0.8;
+}
