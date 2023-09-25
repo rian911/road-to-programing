@@ -1,0 +1,23 @@
+.email {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-family: arial;
+}
+input {
+  width: 320px;
+  height: 25px;
+  border: 2px solid rgb(55, 55, 61);
+  border-radius: 5px;
+}
+.desc {
+  font-size: 12px;
+  font-family: arial;
+}
+.agree {
+  background-color: rgb(8, 102, 202);
+  width: 320px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
