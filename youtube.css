@@ -1,7 +1,18 @@
 * {
   font-family: arial;
 }
-.thumbnail {
+.box-0 {
+  display: block;
+  margin-bottom: 20px;
+}
+.box-1,
+.box-2 {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  margin: 10px;
+}
+img {
   width: 300px;
 }
 .title {
