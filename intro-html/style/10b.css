@@ -1,0 +1,32 @@
+.card {
+  margin: 10px;
+  width: 500px;
+}
+img {
+  width: 200px;
+}
+.image {
+  display: inline-block;
+}
+.desc {
+  margin-top: 2px;
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+}
+.title,
+.owner,
+.views {
+  display: inline-block;
+  margin: 0px;
+  margin-left: 10px;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.owner,
+.views {
+  font-size: 14px;
+  color: #606060;
+}
