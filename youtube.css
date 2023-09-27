@@ -5,28 +5,54 @@
   display: block;
   margin-bottom: 20px;
 }
-.box-1,
-.box-2 {
+.video-card {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+}
+.img-cover,
+.video-info {
   display: inline-block;
   width: 300px;
   vertical-align: top;
   margin: 10px;
 }
+.img-cover {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.desc-video {
+  display: inline-block;
+  width: 70%;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.profile-pic {
+  display: inline-block;
+  vertical-align: top;
+}
+.p-pic {
+  width: 50px;
+  border-radius: 50%;
+}
 img {
   width: 300px;
 }
 .title {
-  margin-top: 5px;
+  margin-top: 0px;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 .owner {
+  color: #606060;
   margin: 0;
   font-size: 12px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .views {
+  color: #606060;
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
 }
