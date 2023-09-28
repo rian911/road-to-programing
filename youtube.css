@@ -5,27 +5,22 @@
   display: block;
   margin-bottom: 20px;
 }
-.video-card {
-  display: inline-block;
-  width: 300px;
-  margin: 10px;
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 40px;
 }
+
 .img-cover {
-  display: inline-block;
-  width: 300px;
+  width: 100%;
   vertical-align: top;
-  margin: 10px;
 }
 .video-info {
   display: grid;
   grid-template-columns: 50px 1fr;
   vertical-align: top;
   margin: 5px;
-}
-.img-cover {
-  width: 30%;
-  display: inline-block;
-  margin-bottom: 0px;
 }
 .desc-video {
   margin-left: 15px;
