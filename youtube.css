@@ -1,9 +1,26 @@
 * {
   font-family: arial;
 }
-.box-0 {
-  display: block;
-  margin-bottom: 20px;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+}
+.left-section {
+  background-color: pink;
+  width: 150px;
+  margin-right: 50px;
+}
+.mid-section {
+  background-color: rgb(175, 206, 233);
+  flex: 1;
+  margin-right: 30px;
+  max-width: 500px;
+}
+.right-section {
+  background-color: pink;
+  width: 200px;
 }
 .video-grid {
   display: grid;
