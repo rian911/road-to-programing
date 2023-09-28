@@ -1,0 +1,87 @@
+p {
+  margin: 0px;
+}
+.div-1 {
+  background-color: lightblue;
+}
+.div-2 {
+  background-color: lightgreen;
+}
+.div-5 {
+  background-color: lightgreen;
+}
+.div-20 {
+  background-color: lightgreen;
+}
+.div-3 {
+  background-color: lightblue;
+}
+.div-4 {
+  background-color: lightblue;
+}
+.div-6 {
+  background-color: lightblue;
+}
+.div-7 {
+  background-color: lightblue;
+}
+.div-8 {
+  background-color: lightpink;
+}
+.div-9 {
+  background-color: lightblue;
+}
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+}
+.flex-2 {
+  display: flex;
+  flex-direction: row;
+}
+.flex-3 {
+  display: flex;
+  flex-direction: row;
+}
+.flex-3 div {
+  width: 100px;
+}
+div.div-2 {
+  flex: 1;
+}
+.flex-4 {
+  display: flex;
+  flex-direction: row;
+}
+.flex-4 div.div-1 {
+  flex: 1;
+}
+.flex-4 div.div-20 {
+  width: 100px;
+}
+
+.flex-4 div.div-3 {
+  flex: 2;
+}
+
+.flex-5 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid;
+  height: 100px;
+  justify-content: center;
+}
+.flex-6 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-4,
+.div-5,
+.div-6 {
+  width: 100px;
+}
