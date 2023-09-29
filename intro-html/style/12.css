@@ -1,0 +1,48 @@
+.--lb {
+  background-color: lightblue;
+}
+.--lc {
+  background-color: lightcoral;
+}
+p {
+  margin: 0;
+}
+.a12 {
+  display: flex;
+  flex-direction: row;
+}
+.a1 {
+  background-color: lightblue;
+  width: 200px;
+}
+.a2 {
+  background-color: lightcoral;
+  width: 75px;
+}
+.b12 {
+  display: flex;
+  flex-direction: row;
+}
+.a3 {
+  width: 50px;
+}
+.a4 {
+  flex: 1;
+}
+.a5 {
+  width: 75px;
+}
+.c12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid;
+}
+.d12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  height: 50px;
+}
