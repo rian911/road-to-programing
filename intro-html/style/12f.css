@@ -16,6 +16,8 @@
   flex: 1;
 }
 .right {
+  width: 100px;
+  text-align: right;
   margin-right: 5px;
 }
 input {
