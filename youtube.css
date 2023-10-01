@@ -3,6 +3,7 @@
 }
 body {
   margin-top: 50px;
+  margin-left: 60px;
 }
 .header {
   display: flex;
@@ -15,6 +16,15 @@ body {
   left: 0;
   right: 0;
   background-color: white;
+  border-bottom: 2px solid rgba(193, 193, 193, 0.855);
+}
+.sidebar {
+  position: fixed;
+  background-color: white;
+  top: 40px;
+  width: 60px;
+  bottom: 0px;
+  left: 0px;
 }
 .left-section {
   display: flex;

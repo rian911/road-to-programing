@@ -1,6 +1,7 @@
 body {
   height: 3000px;
-  padding-top: 34px;
+  padding-top: 44px;
+  padding-left: 66px;
 }
 .header {
   background-color: black;
@@ -10,6 +11,15 @@ body {
   left: 0;
   right: 0;
   height: 40px;
+}
+.sidebar {
+  background-color: aqua;
+  color: black;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  bottom: 0;
+  width: 60px;
 }
 .div1 {
   width: 200px;
