@@ -1,0 +1,19 @@
+body {
+  height: 3000px;
+}
+.pos {
+  background-color: rgb(255, 251, 251);
+  color: rgb(0, 0, 0);
+  position: fixed;
+  bottom: 20px;
+  right: 120px;
+}
+.sidebar {
+  background-color: green;
+  color: white;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+  position: fixed;
+  bottom: 0px;
+}
