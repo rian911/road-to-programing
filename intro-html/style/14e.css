@@ -3,6 +3,9 @@ img {
   width: 40px;
   border-radius: 50%;
 }
+body {
+  height: 3000px;
+}
 .header {
   display: flex;
   justify-content: space-between;
