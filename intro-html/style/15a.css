@@ -1,0 +1,32 @@
+body {
+  height: 3000px;
+}
+.close-btn {
+  background-color: black;
+  color: whitesmoke;
+  position: absolute;
+  font-size: 12px;
+  padding: 5px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 50%;
+  top: -8px;
+  left: -8px;
+}
+.time-btn {
+  background-color: black;
+  color: whitesmoke;
+  position: absolute;
+  font-size: 12px;
+  padding: 2px;
+  bottom: 2px;
+  right: 2px;
+}
+.fixed {
+  background-color: rgb(152, 152, 152);
+  width: 200px;
+  height: 150px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
