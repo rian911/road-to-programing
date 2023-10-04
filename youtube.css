@@ -167,6 +167,32 @@ body {
 .profile-picture {
   height: 30px;
   border-radius: 50%;
+  position: relative;
+}
+.border-box {
+  position: absolute;
+  display: flex;
+  background-color: white;
+  width: 250px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+}
+.profile-pic:hover .border-box {
+  opacity: 1;
+}
+.h-pic {
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.hsubs {
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  margin: 2px;
 }
 .video-grid {
   display: grid;
