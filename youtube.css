@@ -3,14 +3,14 @@
 }
 body {
   margin-top: 50px;
-  margin-left: 60px;
+  padding: 20px 20px 0px 80px;
   background-color: #f5f5f5;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 40px;
+  height: 60px;
   margin-bottom: 20px;
   position: fixed;
   top: 0;
@@ -20,9 +20,7 @@ body {
   border-bottom: 2px solid rgba(193, 193, 193, 0.855);
   z-index: 100;
 }
-.video-card {
-  margin-left: 20px;
-}
+
 .sidebar {
   position: fixed;
   background-color: white;
@@ -91,8 +89,41 @@ body {
   background-color: rgba(237, 237, 237, 0.708);
   border: 2px solid rgb(209, 208, 208);
 }
-.search-icon {
-  padding-top: 3px;
+.search-btn,
+.voice-btn,
+.upload-ttip,
+.yt-app,
+.notifikasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search-btn .tooltip,
+.voice-btn .tooltip,
+.upload-ttip .tooltip,
+.yt-app .tooltip,
+.notifikasi .tooltip {
+  position: absolute;
+  bottom: -25px;
+  left: 2px;
+  background-color: #606060;
+  color: white;
+  padding: 5px 15px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-btn:hover .tooltip,
+.voice-btn:hover .tooltip,
+.upload-ttip:hover .tooltip,
+.yt-app:hover .tooltip,
+.notifikasi:hover .tooltip {
+  opacity: 1;
+}
+.search-icon,
+.voice-icon {
   height: 20px;
 }
 .voice-btn {
@@ -101,10 +132,6 @@ body {
   width: 40px;
   border: none;
   border-radius: 50%;
-}
-.voice-icon {
-  padding-top: 3px;
-  height: 20px;
 }
 .right-section {
   display: flex;
@@ -159,14 +186,12 @@ body {
   vertical-align: top;
   margin: 5px;
 }
-.desc-video {
-  margin-left: 15px;
-}
+
 .profile-pic {
   vertical-align: top;
 }
 .p-pic {
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
 }
 .img-cover img {
@@ -182,7 +207,7 @@ body {
   color: #606060;
   margin: 0;
   font-size: 12px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 .views {
   color: #606060;
