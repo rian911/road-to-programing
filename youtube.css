@@ -179,6 +179,7 @@ body {
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
   opacity: 0;
   pointer-events: none;
+  transition: opacity 0.2s;
 }
 .profile-pic:hover .border-box {
   opacity: 1;
@@ -196,13 +197,24 @@ body {
 }
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 40px;
 }
 
+@media (max-width: 746px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1050) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .img-cover {
-  width: 100%;
+  display: flex;
   vertical-align: top;
   position: relative;
 }
@@ -246,4 +258,8 @@ body {
   right: 5px;
   background-color: black;
   color: white;
+}
+.thumbnail-1,
+.thumbnail-2 {
+  position: relative;
 }
