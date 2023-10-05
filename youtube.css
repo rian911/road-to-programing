@@ -242,6 +242,14 @@ body {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
+  /* fungsi untuk ... text overflow */
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.title > p {
+  font-size: 14cqi;
 }
 .owner {
   color: #606060;
