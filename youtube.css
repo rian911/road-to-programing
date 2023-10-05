@@ -214,7 +214,6 @@ body {
 }
 
 .img-cover {
-  display: flex;
   vertical-align: top;
   position: relative;
 }
@@ -223,6 +222,9 @@ body {
   grid-template-columns: 50px 1fr;
   vertical-align: top;
   margin: 5px;
+}
+.video-card {
+  display: grid;
 }
 
 .profile-pic {
@@ -261,5 +263,5 @@ body {
 }
 .thumbnail-1,
 .thumbnail-2 {
-  position: relative;
+  width: 100%;
 }
