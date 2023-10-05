@@ -214,14 +214,12 @@ body {
 }
 
 .img-cover {
-  vertical-align: top;
   position: relative;
 }
 .video-info {
+  margin-top: 5px;
   display: grid;
   grid-template-columns: 50px 1fr;
-  vertical-align: top;
-  margin: 5px;
 }
 .video-card {
   display: grid;
@@ -235,7 +233,9 @@ body {
   border-radius: 50%;
 }
 .img-cover img {
-  width: 300px;
+  width: 100%;
+
+  /* ternyata ini masalahnya disetting 300px astaga */
 }
 .title {
   margin-top: 0px;
@@ -256,12 +256,9 @@ body {
 }
 .time {
   position: absolute;
-  bottom: 8px;
+  bottom: 5px;
   right: 5px;
   background-color: black;
   color: white;
-}
-.thumbnail-1,
-.thumbnail-2 {
-  width: 100%;
+  align-items: center;
 }
